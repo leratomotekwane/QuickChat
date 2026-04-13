@@ -29,12 +29,12 @@ public class QuickChart {
         
     String result = Login.registerUser(firstName, username, password, cellphone, lastName);
     
-    System.out.println("***************");
+
     System.out.println(result);
-    System.out.println("**************");
+
     
     if(result.contains("not correctly")){
-    System.out.println("Please fix your errors and try again.");
+  
     return; 
     }
    
@@ -48,7 +48,7 @@ public class QuickChart {
     boolean loginresult = Login.loginUser(loginUsername, loginPassword);
    
     System.out.println(Login.returnLoginStatus(loginresult));
-    System.out.println("***********");
+    
      
         
        
