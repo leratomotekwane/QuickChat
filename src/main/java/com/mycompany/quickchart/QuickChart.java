@@ -12,19 +12,19 @@ public class QuickChart {
     public static void main(String[] args) {
           
         Scanner scan = new Scanner(System.in);
-    System.out.print("Enter first name: ");
+    System.out.println("Enter first name: ");
     String firstName = scan.next();
     
-    System.out.print("Enter last name: ");
+    System.out.println("Enter last name: ");
     String lastName = scan.next();
     
-    System.out.print("Enter username: ");
+    System.out.println("Enter username: ");
     String username = scan.next();
     
-    System.out.print("Enter password: ");
+    System.out.println("Enter password: ");
     String password = scan.next();
     
-    System.out.print("Enter cellphone: ");
+    System.out.println("Enter cellphone: ");
     String cellphone = scan.next();
         
     String result = Login.registerUser(firstName, username, password, cellphone, lastName);
@@ -38,10 +38,10 @@ public class QuickChart {
     return; 
     }
    
-    System.out.print("Enter username to Login: ");
+    System.out.println("Enter username to Login: ");
     String loginUsername = scan.next();
     
-    System.out.print("Enter password to Login: ");
+    System.out.println("Enter password to Login: ");
     String loginPassword = scan.next();
     
     
