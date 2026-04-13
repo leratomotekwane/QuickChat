@@ -10,7 +10,7 @@ import org.junit.Assert;
 
 public class UnitTest {
     
-    // ========== USERNAME TESTS ==========
+ 
     @Test
     public void testCheckUserNameCorrect() {
         Assert.assertEquals(true, Login.checkUserName("kyl_1"));
@@ -21,7 +21,6 @@ public class UnitTest {
         Assert.assertEquals(false, Login.checkUserName("kyle!!!!!"));
     }
     
-    // ========== PASSWORD TESTS ==========
     @Test
     public void testCheckPasswordComplexityCorrect() {
         Assert.assertEquals(true, Login.checkPasswordComplexity("Ch&&sec@ke99!"));
