@@ -38,10 +38,10 @@ public class QuickChart {
     return; 
     }
    
-    System.out.println("Enter username to Login: ");
+    System.out.println("Enter username to Login:");
     String loginUsername = scan.next();
     
-    System.out.println("Enter password to Login: ");
+    System.out.println("enter password to Login:");
     String loginPassword = scan.next();
     
     
