@@ -92,7 +92,7 @@ class Login {
             String firstName = registeredUser.firstName != null ? registeredUser.firstName : "";
             String lastName = registeredUser.lastName != null ? registeredUser.lastName : "";
             
-            return "Welcome Back " + firstName + " " + lastName + " it is great to see yp again";
+            return "Welcome Back " + firstName + " " + lastName + " it is great to see yo again";
         } else {
             return "Loggin has failed";
         }

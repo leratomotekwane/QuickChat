@@ -46,7 +46,7 @@ public class UnitTest {
 
     @Test
     public void testRegisterUser() {
-        String result = Login.registerUser("Lerato", "lera_01", "Ch&&sec@ke99!", "+27684578600", "Tshabalala");
+        String result = Login.registerUser("Lerato", "le_01", "Ch&&sec@ke99!", "+27684578600", "Tshabalala");
         Assert.assertEquals(true, result.contains("Welcome"));
     }
     
