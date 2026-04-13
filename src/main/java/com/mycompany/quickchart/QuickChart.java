@@ -12,13 +12,13 @@ public class QuickChart {
     public static void main(String[] args) {
           
         Scanner scan = new Scanner(System.in);
-    System.out.println("Enter first name: ");
+    System.out.println("enter first name: ");
     String firstName = scan.next();
     
-    System.out.println("Enter last name: ");
+    System.out.println("enter last name: ");
     String lastName = scan.next();
     
-    System.out.println("Enter username: ");
+    System.out.println("enter username: ");
     String username = scan.next();
     
     System.out.println("Enter password: ");
